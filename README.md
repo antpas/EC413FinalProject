@@ -1,2 +1,2 @@
-# EC413FinalProject
+# EC413 Final Project
 Multicore CPU
