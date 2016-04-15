@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/ad/eng/users/j/o/johnidel/X_Projects/Mile2/CPU_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/CPU_tb/PC_OUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/WordPosition" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WordPosition[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WordPosition[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/write_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/read_sel_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_sel_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_sel_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/read_sel_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_sel_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read_sel_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/write_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_address[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_address[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/read_data_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/read_data_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/register_file" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">register_file[0:31,31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_file[0:31,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/data_width" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/regFile/select_width" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">select_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">select_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/WriteData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/Address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/MemData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/mem_contents" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_contents[15:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contents[15:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/ADDRESS_WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDRESS_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_tb/cpuu/dataMem/DATA_WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
