@@ -1,2 +1,2 @@
 # Computer Organization Final Project
-Multicore CPU
+Multi Cylce CPU
